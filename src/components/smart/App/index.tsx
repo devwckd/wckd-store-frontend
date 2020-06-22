@@ -1,8 +1,10 @@
 import React from 'react';
 import {ThemeProvider} from "styled-components";
+
+import {DefaultTheme} from "theme";
 import {GlobalStyles} from "./styles";
-import Routes from "../../../routes";
-import {DefaultTheme} from "../../../theme";
+
+import Routes from "components/smart/Routes";
 
 function App() {
     return (
