@@ -1,9 +1,10 @@
 import React from "react";
 
 import {Container} from "../../layout/grid";
+import {IoMdListBox} from "react-icons/all";
 import {BigText, Button, ColoredText, PageWrapper, SmallText, TextContainer} from "./styles";
 
-import LandingNavbar from "../../components/LandingNavbar";
+import LandingNavbar from "../../components/dumb/LandingNavbar";
 
 const Landing = () => {
     return (
@@ -29,7 +30,7 @@ const Landing = () => {
                     </SmallText>
 
                     <Button to="">
-                        Ver o catálogo
+                        Ver o catálogo <IoMdListBox style={{verticalAlign: "bottom"}} size="16"/>
                     </Button>
 
                 </TextContainer>

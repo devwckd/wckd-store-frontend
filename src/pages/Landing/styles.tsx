@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
-import {ThemeProps} from "../../layout/theme";
+import {ThemeProps} from "../../theme";
 
 import background from "../../assets/home-background.png";
 

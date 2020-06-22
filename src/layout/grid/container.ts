@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ThemeProps} from "../theme";
+import {ThemeProps} from "../../theme";
 
 export const Container = styled.div<ThemeProps<HTMLDivElement>>`
   max-width: ${props => props.theme.size.container};

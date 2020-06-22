@@ -1,5 +1,5 @@
 import React from "react";
-import logoImage from "../../assets/white-logo.png";
+import logoImage from "../../../assets/white-logo.png";
 
 import {Container, Logo, SearchBar} from "./styles";
 

@@ -10,6 +10,7 @@ export interface Theme {
         main: string;
         landing: {
             background: string;
+            content: string;
             text: {
                 primary: string;
                 secondary: string;
