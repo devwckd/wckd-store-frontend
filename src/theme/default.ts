@@ -1,6 +1,6 @@
 import {Theme} from "./index";
 
-export const DefaultTheme: Theme = {
+const DefaultTheme: Theme = {
 
     size: {
         container: "1000px",
@@ -19,3 +19,5 @@ export const DefaultTheme: Theme = {
     },
 
 };
+
+export default DefaultTheme;

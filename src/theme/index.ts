@@ -24,4 +24,4 @@ export interface ThemeProps<T> extends React.DetailedHTMLProps<React.HTMLAttribu
     theme: Theme
 }
 
-export * from "./default";
+export {default as DefaultTheme} from "./default";
