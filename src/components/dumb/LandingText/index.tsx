@@ -11,19 +11,19 @@ const LandingText = () => {
         <Center vertical>
 
             <ColoredText>
-                {Strings.landing.name}
+                {Strings.landing.header.title}
             </ColoredText>
 
             <BigText>
-                {Strings.landing.bigText}
+                {Strings.landing.header.bigText}
             </BigText>
 
             <SmallText>
-                {Strings.landing.smallText}
+                {Strings.landing.header.smallText}
             </SmallText>
 
             <Button to="">
-                {Strings.landing.button} <IoMdListBox style={{verticalAlign: "bottom"}} size="16"/>
+                {Strings.landing.header.button} <IoMdListBox style={{verticalAlign: "bottom"}} size="16"/>
             </Button>
 
         </Center>

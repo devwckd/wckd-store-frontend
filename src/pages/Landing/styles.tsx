@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ThemeProps} from "theme";
+import { ThemeProps } from "theme";
 
 import background from "assets/home-background.png";
 
@@ -10,7 +10,7 @@ export const PageWrapper = styled.div<ThemeProps<HTMLDivElement>>`
   background-size: 100vw auto;
 `;
 
-export const TextContainer = styled.div`
+export const Header = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;

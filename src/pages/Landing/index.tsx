@@ -1,17 +1,19 @@
 import React from "react";
 
-import { PageWrapper, TextContainer } from "./styles";
+import { Header, PageWrapper } from "./styles";
 
-import { Container, LandingText } from "components";
+import { Container, HotProducts, LandingText } from "components";
 
 const Landing = () => {
     return (
         <PageWrapper>
             <Container>
 
-                <TextContainer>
+                <Header>
                     <LandingText/>
-                </TextContainer>
+                </Header>
+
+                <HotProducts/>
 
             </Container>
         </PageWrapper>
