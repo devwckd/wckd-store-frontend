@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Bottom, ProductContainer, ProductsContainer, Spacer, TitleContainer, Top } from "./styles";
-import { HotProduct } from "components";
+import { Bottom, MoreContainer, ProductContainer, ProductsContainer, Spacer, TitleContainer, Top } from "./styles";
+import { Center, HotProduct } from "components";
 
 const HotProducts = () => {
     return (
@@ -31,6 +31,12 @@ const HotProducts = () => {
                 </ProductContainer>
 
             </ProductsContainer>
+
+            <MoreContainer>
+                <Center>
+                    E muito mais...
+                </Center>
+            </MoreContainer>
         </>
     )
 };

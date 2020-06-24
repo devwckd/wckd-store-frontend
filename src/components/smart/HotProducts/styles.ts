@@ -6,7 +6,7 @@ export const ProductsContainer = styled.div`
 `;
 
 export const ProductContainer = styled.div`
-  flex: 1 1 auto;
+  flex: 0 0 calc(33.3333% - 16.6666666667px);
 `;
 
 export const Spacer = styled.div`
@@ -30,4 +30,10 @@ export const Bottom = styled.span`
   display: block;
   font-weight: bold;
   line-height: 1.2;
+`;
+
+export const MoreContainer = styled.div<ThemeProps<HTMLDivElement>>`
+  padding: 20px 0;
+  color: ${props => props.theme.color.landing.text.primary};
+  font-size: 18px;
 `;

@@ -8,6 +8,7 @@ export const PageWrapper = styled.div<ThemeProps<HTMLDivElement>>`
   min-height: 200vh;
   background: ${props => props.theme.color.landing.background} url(${background}) no-repeat;
   background-size: 100vw auto;
+  position: relative;
 `;
 
 export const Header = styled.div`
